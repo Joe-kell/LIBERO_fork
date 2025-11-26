@@ -217,3 +217,6 @@ class LIBERO_100(Benchmark):
         super().__init__(task_order_index=task_order_index)
         self.name = "libero_100"
         self._make_benchmark()
+
+#HERE SELF.TASKS HAS BEEN CREATED
+#WRAPPPED IN A DECORATOR - THIS PASSES THE RESULTING TASK LIST INTO THE BENCHMAARK
